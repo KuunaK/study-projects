@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,500;1,500&family=Quicksand&display=swap');
+
+body {
+    margin: 20px;
+    font-family: Quicksand, sans-serif;
+}
+
+.avatar {
+    width: 150px;
+}
+
+.card {
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+    width: 400px;
+    margin: 0 auto;
+    text-align: center;
+    background-color: #ddebf8;
+    border-bottom: 7px solid #d8cefe;
+    color: #2b2839;
+}
+
+.border-blue {
+    border: 1px dotted darkslateblue;
+}

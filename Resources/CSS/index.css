@@ -1,0 +1,58 @@
+body {
+    background-color: darkslategrey;
+    color: pink;
+    width: 100%;
+}
+
+.header {
+    display: block;
+    padding-bottom: 40px;
+    text-align: center;
+}
+
+.projects {
+    padding-top: 20px;
+    text-align: center;
+}
+
+.search-button input {
+    border-radius: 20px;
+    border-color: transparent;
+    margin-right: 50px;
+    background-color: beige;
+    color: darkslategray;
+    padding: 10px 30px;
+}
+
+.search-button input:focus {
+    outline: none;
+}
+
+.search-button button {
+    padding: 10px 30px;
+    border-radius: 3px;
+    border-color: transparent;
+    background-color: beige;
+    color: darkslategray;
+    font-weight: bold;
+    transition: all 0.2s;
+}
+
+.search-button button:hover {
+    background-color: darkslategray;
+    color: beige;
+    border-color: beige;
+}
+
+a {
+    display: block;
+    color: beige;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: lighter;
+    padding-top: 15px;
+}
+
+span {
+    text-decoration: underline;
+}
