@@ -10,6 +10,10 @@ body {
     text-align: center;
 }
 
+.header p {
+    text-shadow: 0 0 5px pink ;
+}
+
 .projects {
     padding-top: 20px;
     text-align: center;
