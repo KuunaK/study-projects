@@ -74,6 +74,11 @@ body {
     height: 150px;
     border-radius: 50%;
     background-size: contain;
+    transition: all ease 0.5s;
+}
+
+.activity-img:hover {
+    border-radius: 5px;
 }
 
 .guide {
@@ -86,6 +91,14 @@ body {
     align-items: center;
     justify-content: space-around;
     border-bottom: 5px solid #1d3557;
+    transition: all ease 0.5s;
+
+}
+
+.guide:hover {
+    box-shadow: 0 0 20px #2d9ca0;
+    transform: scale(1.1);
+    text-shadow: -5px 5px 5px #1d3557;
 }
 
 .guide img {
