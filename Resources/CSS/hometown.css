@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,500;1,500&family=Quicksand&display=swap');
+/*
+Red: #e63946
+Light: #f1faee
+Aqua: #A8DADC
+Light Blue: #457B9D
+Dark Blue: #1d3557
+*/
+
+body {
+    text-align: center;
+    font-family: Quicksand, sans-serif;
+    color: #1d3557;
+    width: 930px;
+    margin: 30px auto;
+    background-color: rgb(22, 21, 21);
+}
+
+.content {
+    padding: 10px;
+    background: white;
+    border-radius: 30px;
+    box-shadow: 0 0 10px white;
+}
+
+.header {
+    background-image: url("../Images/christchurch.jpg");
+    height: 387px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    -moz-border-radius: 0px;
+    -webkit-border-radius: 30px 30px 0px 0px;
+    border-radius: 30px 30px 0px 0px;
+    color: #f1faee;
+    font-size: smaller;
+}
+
+.header h1 {
+    background-color:  #457B9D;
+    padding: 6px 12px;
+    border-radius: 3px;
+    margin-bottom: 10px;
+}
+
+.header h2 {
+    background-color: #1d3557;
+    padding: 6px 12px;
+    border-radius: 3px;
+    margin-top: 0;
+}
+
+.activities {
+    background-color: #f1faee;
+    margin: 0;
+    padding: 10px;
+}
+
+.activity-flex {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.activity {
+    margin-top: 20px;
+    width: 200px;
+}
+
+.activity-img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background-size: contain;
+}
+
+.guide {
+    background: #A8DADC;
+    box-shadow: 0 0 10px #A8DADC;
+    width: 400px;
+    margin: 50px auto;
+    border-radius: 10px 0 0 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border-bottom: 5px solid #1d3557;
+}
+
+.guide img {
+    width: 120px;
+    border-radius: 10px;
+}
+
+.guide-info {
+    width: 200px;
+}
+
+.guide-info p {
+    font-style: italic;
+}
+
+.btn {
+    margin: 30px 4px 20px 4px;
+    background: #dfe1e5;
+    border: none;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 16px;
+    padding-right: 16px;
+    border-radius: 4px;
+    cursor: pointer;
+}
