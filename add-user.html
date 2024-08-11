@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>JS Practice</title>
+    <style>
+        .btn {
+                background: #dfe1e5;
+                border: none;
+                padding-top: 8px;
+                padding-bottom: 8px;
+                padding-left: 16px;
+                padding-right: 16px;
+                border-radius: 4px;
+                cursor: pointer;
+            }
+    </style>
+</head>
+<body>
+    <header class="bg-gray-200 text-center">
+        <h1 class="font-bold py-5 text-3xl">JS For Beginners</h1>
+    </header>
+    <section class="p-12 form-section mx-auto" style="max-width: 600px">
+        <form id="my-form" class="bg-gray-200 py-9 px-7 rounded">
+            <h2 class="font-bold mb-2 text-xl">Add User</h2>
+            <div class="js-msg"></div>
+            <div class="flex flex-col mb-2">
+                <label for="name">Name:</label>
+                <input type="text" id="name" class="border-solid border border-gray-300 rounded">
+            </div>
+            <div class="flex flex-col mb-6">
+                <label for="email">Email:</label>
+                <input type="text" id="email" class="border-solid border border-gray-300 rounded">
+            </div>
+            <input type="submit" value="Submit" class=" js-btn bg-black text-white text-sm py-2 rounded-md cursor-pointer" style="width: 100%;">
+        </form>
+
+        <ul id="users">
+            <!-- <li class="bg-gray-200 mt-2 p-1 font-semibold text-sm">Kalib Kumeroa</li> -->
+        </ul>
+    </section>
+    <a href="work.html"><button class="btn  my-8 mx-auto block">Back To projects</button></a>
+    <script src="Resources/JS/add-user.js"></script>
+</body>
+</html>
