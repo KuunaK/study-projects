@@ -1,0 +1,430 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Netflix New Zealand - watch TV shows online, watch movies online</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Martel+Sans:wght@200;300;400;600;700;800;900&display=swap" rel="stylesheet">
+    <style>
+        body {
+            background: black;
+            color: white;
+        }
+
+        .leading-65 {
+            line-height: 65px;
+        }
+
+        .btn-projects {
+                background: #dfe1e5;
+                border: none;
+                padding-top: 8px;
+                padding-bottom: 8px;
+                padding-left: 16px;
+                padding-right: 16px;
+                border-radius: 4px;
+                cursor: pointer;
+                color: black;
+            }
+    </style>
+</head>
+<body>
+    <div class="relative border-b-8 border-zinc-800 h-[512px] lg:h-[700px]">
+        <div>
+            <img class="h-full w-full absolute object-cover" src="Resources/Images/netflix-2-background.jpg" alt="">
+            <div class="absolute inset-0 bg-black opacity-60"></div>
+            <div class="absolute h-full w-full" style="box-shadow: inset -90px -90px 100px rgba(0, 0, 0, 0.7), inset 90px 90px 100px rgba(0, 0, 0, 0.6);"></div>
+        </div>
+        <header class="mx-auto relative z-index-2 h-full w-full px-6 lg:w-[65%]">
+            <nav class="flex justify-between pt-6 items-center">
+                <img src="Resources/Images/netflix-2-logo.png" alt="" class="w-[9.25rem]">
+                <a href="#" class="bg-red-600  text-sm py-2 px-5 rounded-md">Sign in</a>
+            </nav>
+            <div class=" text-center m-auto h-full flex justify-center" style="width: fit-content">
+                <div class="my-auto">
+                    <h1 class="text-[32px] lg:text-5xl font-bold lg:font-extrabold md:leading-65">Unlimited movies, TV shows and more</h1>
+                    <h2 class="text-lg lg:text-2xl pt-4">Watch anywhere. Cancel at any time.</h2>
+                    <div class="mt-6">
+                        <p class=" text-lg lg:text-xl mb-5">Ready to watch Netflix? Enter your email to create or restart your membership.</p>
+                        <div class="items-center md:flex mx-auto justify-center">
+                            <input class="px-4 pt-3 pb-3 md:p-4 bg-black/40  border rounded border-gray-500 w-full max-w-[372px]" type="text" placeholder="Email address">
+                            <button class="bg-red-600  text-lg md:text-2xl mt-4 mb-9 md:my-0 py-2 px-4 md:py-3 md:px-6 rounded-sm ml-2 font-medium">Get started <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6 inline">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="m8.25 4.5 7.5 7.5-7.5 7.5" />
+                              </svg>
+                              </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+    </div>
+    <section class="border-b-8 border-zinc-800">
+        <div class="lg:py-[72px]">
+            <div class="flex flex-col lg:flex-row mx-auto items-center justify-center text-center h-[635px] sm:h-[735px] lg:h-[440px]">
+                <div class="max-w-[518px] sm:max-w-[744px] lg:max-w-[580px]">
+                    <h2 class="font-bold text-[32px] lg:text-5xl leading-65">Enjoy on your TV</h2>
+                    <p class="text-lg sm:text-regular lg:text-2xl mt-4">Watch titles on Smart TVs, PlayStation, Xbox, Chromecast, Apple TV, Blu-ray players and more.</p>
+                </div>
+                <div class="flex relative">
+                    <img class="max-w-[518px] sm:max-w-[580px] z-20" src="Resources/Images/tv.png" alt="">
+                    <div class="absolute" style="top: 89px; left: 77px;">
+                        <video class=" overflow-hidden z-10"
+                            autoplay
+                            muted
+                            loop
+                            >
+                            <source src="Resources/Images/video1.m4v">
+                        </video>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="border-b-8 border-zinc-800">
+        <div class="px-5 lg:py-[72px]">
+            <div class="flex flex-col-reverse lg:flex-row mx-auto items-center justify-center text-center h-[635px] sm:h-[735px] lg:h-[440px]">
+                <div class="relative">
+                    <img class="max-w-[518px] sm:max-w-[580px]" src="Resources/Images/mobile-0819.jpg" alt="">
+                    <div class="flex justify-between py-2 px-3 w-[65%] md:w-[55%] bottom-[26px] md:top-[303px] left-[99px] md:left-[128px] border rounded-xl border-gray-500 absolute bg-black">
+                        <div class="w-[45px] md:w-[57px] mr-4">
+                            <img class="lg:w-auto" src="Resources/Images/boxshot.png" alt="">
+                        </div>
+                        <div class="flex flex-col text-left justify-center md:pr-14 w-[70%] md:w-auto">
+                            <p class="">Stranger Things</p>
+                            <p class="text-sm text-blue-600">Downloading...</p>
+                        </div>
+                        <div class="w-12 inline my-auto">
+                            <img class="" src="Resources/Images/download-icon.gif" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="max-w-[518px] sm:max-w-[580px]">
+                    <h2 class="font-bold text-[32px] lg:text-5xl leading-tight">Download your shows to watch them offline</h2>
+                    <p class="text-lg sm:text-regular lg:text-2xl mt-4">Save your favourites easily and always have something to watch.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="border-b-8 border-zinc-800">
+        <div class="py-12 lg:py-[72px]">
+            <div class="flex flex-col px-7 lg:flex-row mx-auto items-center justify-center text-center max-h-[635px] sm:h-[735px] lg:h-[440px]">
+                <div class="w-full md:max-w-[580px] mr-50">
+                    <h2 class="font-bold text-[32px] lg:text-5xl leading-snug">Watch Netflix everywhere</h2>
+                    <p class="text-lg sm:text-regular lg:text-2xl mt-4">Stream unlimited movies and TV shows on your phone, tablet, laptop and TV.</p>
+                </div>
+                <div class="flex relative overflow-hidden w-full md:max-w-[580px]">
+                    <img class="z-30 overflow-hidden" src="Resources/Images/device-pile.png" alt="">
+                    <div class="absolute overflow-hidden z-10 top-[36px] left-[79px] sm:top-[46px] sm:left-[109px]">
+                        <video
+                            autoplay
+                            muted
+                            loop
+                            class="overflow-hidden"
+                            >
+                            <source src="Resources/Images/video-devices.m4v">
+                    </div>
+                    <div class="absolute w-full h-1/2 z-20 bg-black bottom-[-55px] sm:bottom-[-70px]"></div>
+                    <div class="absolute w-1/2 h-full z-20 bg-black right-[-135px] sm:right-[-179px]"></div>
+                    </video>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="border-b-8 border-zinc-800">
+        <div class="px-7 py-12 lg:py-[72px]">
+            <div class="flex flex-col-reverse lg:flex-row mx-auto items-center justify-center text-center max-h-[635px] sm:h-[735px] lg:h-[440px]">
+                <div class="relative">
+                    <img class="w-[580px]" src="Resources/Images/kids-profile.png" alt="">
+                </div>
+                <div class="max-w-[580px]">
+                    <h2 class="font-bold text-[32px] md:text-5xl leading-tight">Create profiles for kids</h2>
+                    <p class="text-lg md:text-2xl mt-4">Send kids on adventures with their favourite characters in a space made just for them — free with your membership.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="border-b-8 border-zinc-800">
+        <div class="py-[72px] px-7">
+            <div class="flex flex-col mx-auto items-center justify-center" >
+                <h2 class="font-bold text-[32px] md:text-5xl ">Frequently Asked Questions</h2>
+                <div class="max-w-[1172px] mt-6">
+                    <ul>
+                        <li class="mb-2">
+                            <button id="content-btn" class="p-5 bg-zinc-800 hover:bg-zinc-700 w-full flex justify-between text-lg md:text-2xl items-center faq-item transition duration-300">
+                                <h3>What is Netflix?</h3>
+                                <svg
+                                    xmlns="http://www.w3.org/2000/svg"
+                                    fill="none"
+                                    viewBox="0 0 24 24"
+                                    stroke-width="1"
+                                    stroke="currentColor"
+                                    class="size-8 md:size-8 md:size-11">
+                                    <path
+                                        stroke-linecap="round"
+                                        stroke-linejoin="round"
+                                        d="M12 4.5v15m7.5-7.5h-15" />
+                                </svg>
+                                <svg
+                                    xmlns="http://www.w3.org/2000/svg"
+                                    fill="none"
+                                    viewBox="0 0 24 24"
+                                    stroke-width="1"
+                                    stroke="currentColor"
+                                    class="size-8 md:size-11 hidden">
+                                    <path
+                                        stroke-linecap="round"
+                                        stroke-linejoin="round"
+                                        d="M6 18 18 6M6 6l12 12" />
+                                </svg>                                  
+                            </button>
+                            <div class="transition-all duration-300 faq-item-content overflow-hidden h-0">
+                                <div class="mt-[1px] p-6 bg-zinc-800">
+                                    <p class="text-lg md:text-2xl">Netflix is a streaming service that offers a wide variety of award-winning TV shows, movies, anime, documentaries and more on thousands of internet-connected devices.</p>
+                                    <p class="text-lg md:text-2xl"><br>You can watch as much as you want, whenever you want without a single commercial - all for one low monthly price. There's always something new to discover, and new TV shows and movies are added every week!</p>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="mb-2">
+                            <button id="content-btn" class="p-5 bg-zinc-800 hover:bg-zinc-700 w-full flex justify-between text-lg md:text-2xl items-center faq-item transition duration-300">
+                                <h3>How much does Netflix cost?</h3>
+                                <svg
+                                    xmlns="http://www.w3.org/2000/svg"
+                                    fill="none"
+                                    viewBox="0 0 24 24"
+                                    stroke-width="1"
+                                    stroke="currentColor"
+                                    class="size-8 md:size-11">
+                                    <path
+                                        stroke-linecap="round"
+                                        stroke-linejoin="round"
+                                        d="M12 4.5v15m7.5-7.5h-15" />
+                                </svg>
+                                <svg
+                                    xmlns="http://www.w3.org/2000/svg"
+                                    fill="none"
+                                    viewBox="0 0 24 24"
+                                    stroke-width="1"
+                                    stroke="currentColor"
+                                    class="size-8 md:size-11 hidden">
+                                    <path
+                                        stroke-linecap="round"
+                                        stroke-linejoin="round"
+                                        d="M6 18 18 6M6 6l12 12" />
+                                </svg>                                  
+                            </button>
+                            <div class="transition-all duration-300 faq-item-content overflow-hidden h-0">
+                                <div class="mt-[1px] p-6 bg-zinc-800">
+                                    <p class="text-lg md:text-2xl">Watch Netflix on your smartphone, tablet, Smart TV, laptop or streaming device, all for one fixed monthly fee. Plans range from $14.99 to $27.99 per month. No extra costs, no contracts.</p>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="mb-2">
+                            <button id="content-btn" class="p-5 bg-zinc-800 hover:bg-zinc-700 w-full flex justify-between text-lg md:text-2xl items-center faq-item transition duration-300">
+                                <h3>Where can I watch Netflix?</h3>
+                                <svg
+                                    xmlns="http://www.w3.org/2000/svg"
+                                    fill="none"
+                                    viewBox="0 0 24 24"
+                                    stroke-width="1"
+                                    stroke="currentColor"
+                                    class="size-8 md:size-11">
+                                    <path
+                                        stroke-linecap="round"
+                                        stroke-linejoin="round"
+                                        d="M12 4.5v15m7.5-7.5h-15" />
+                                </svg>
+                                <svg
+                                    xmlns="http://www.w3.org/2000/svg"
+                                    fill="none"
+                                    viewBox="0 0 24 24"
+                                    stroke-width="1"
+                                    stroke="currentColor"
+                                    class="size-8 md:size-11 hidden">
+                                    <path
+                                        stroke-linecap="round"
+                                        stroke-linejoin="round"
+                                        d="M6 18 18 6M6 6l12 12" />
+                                </svg>                                  
+                            </button>
+                            <div class="transition-all duration-300 faq-item-content overflow-hidden h-0">
+                                <div class="mt-[1px] p-6 bg-zinc-800">
+                                    <p class="text-lg md:text-2xl">Watch anywhere, at any time. Sign in with your Netflix account to watch content instantly on the web at netflix.com from your personal computer or on any internet-connected device that offers the Netflix app, including smart TVs, smartphones, tablets, streaming media players and game consoles.</p>
+                                    <p class="text-lg md:text-2xl"><br>You can also download your favourite shows with the iOS or Android app. Use downloads to watch titles while you're on the go and without an internet connection. Take Netflix with you anywhere.</p>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="mb-2">
+                            <button id="content-btn" class="p-5 bg-zinc-800 hover:bg-zinc-700 w-full flex justify-between text-lg md:text-2xl items-center faq-item transition duration-300">
+                                <h3>How do I cancel?</h3>
+                                <svg
+                                    xmlns="http://www.w3.org/2000/svg"
+                                    fill="none"
+                                    viewBox="0 0 24 24"
+                                    stroke-width="1"
+                                    stroke="currentColor"
+                                    class="size-8 md:size-11">
+                                    <path
+                                        stroke-linecap="round"
+                                        stroke-linejoin="round"
+                                        d="M12 4.5v15m7.5-7.5h-15" />
+                                </svg>
+                                <svg
+                                    xmlns="http://www.w3.org/2000/svg"
+                                    fill="none"
+                                    viewBox="0 0 24 24"
+                                    stroke-width="1"
+                                    stroke="currentColor"
+                                    class="size-8 md:size-11 hidden">
+                                    <path
+                                        stroke-linecap="round"
+                                        stroke-linejoin="round"
+                                        d="M6 18 18 6M6 6l12 12" />
+                                </svg>                                  
+                            </button>
+                            <div class="transition-all duration-300 faq-item-content overflow-hidden h-0">
+                                <div class="mt-[1px] p-6 bg-zinc-800">
+                                    <p class="text-lg md:text-2xl">Netflix is flexible. There are no pesky contracts and no commitments. You can easily cancel your account online in two clicks. There are no cancellation fees - start or stop your account at any time.</p>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="mb-2">
+                            <button id="content-btn" class="p-5 bg-zinc-800 hover:bg-zinc-700 w-full flex justify-between text-lg md:text-2xl items-center faq-item transition duration-300">
+                                <h3>What can I watch on Netflix?</h3>
+                                <svg
+                                    xmlns="http://www.w3.org/2000/svg"
+                                    fill="none"
+                                    viewBox="0 0 24 24"
+                                    stroke-width="1"
+                                    stroke="currentColor"
+                                    class="size-8 md:size-11">
+                                    <path
+                                        stroke-linecap="round"
+                                        stroke-linejoin="round"
+                                        d="M12 4.5v15m7.5-7.5h-15" />
+                                </svg>
+                                <svg
+                                    xmlns="http://www.w3.org/2000/svg"
+                                    fill="none"
+                                    viewBox="0 0 24 24"
+                                    stroke-width="1"
+                                    stroke="currentColor"
+                                    class="size-8 md:size-11 hidden">
+                                    <path
+                                        stroke-linecap="round"
+                                        stroke-linejoin="round"
+                                        d="M6 18 18 6M6 6l12 12" />
+                                </svg>                                  
+                            </button>
+                            <div class="transition-all duration-300 faq-item-content overflow-hidden h-0">
+                                <div class="mt-[1px] p-6 bg-zinc-800">
+                                    <p class="text-lg md:text-2xl">Netflix has an extensive library of feature films, documentaries, TV shows, anime, award-winning Netflix Originals and more. Watch as much as you want, at any time that you want.</p>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="mb-2">
+                            <button id="content-btn" class="p-5 bg-zinc-800 hover:bg-zinc-700 w-full flex justify-between text-lg md:text-2xl items-center faq-item transition duration-300">
+                                <h3>Is Netflix good for kids?</h3>
+                                <svg
+                                    xmlns="http://www.w3.org/2000/svg"
+                                    fill="none"
+                                    viewBox="0 0 24 24"
+                                    stroke-width="1"
+                                    stroke="currentColor"
+                                    class="size-8 md:size-11">
+                                    <path
+                                        stroke-linecap="round"
+                                        stroke-linejoin="round"
+                                        d="M12 4.5v15m7.5-7.5h-15" />
+                                </svg>
+                                <svg
+                                    xmlns="http://www.w3.org/2000/svg"
+                                    fill="none"
+                                    viewBox="0 0 24 24"
+                                    stroke-width="1"
+                                    stroke="currentColor"
+                                    class="size-8 md:size-11 hidden">
+                                    <path
+                                        stroke-linecap="round"
+                                        stroke-linejoin="round"
+                                        d="M6 18 18 6M6 6l12 12" />
+                                </svg>                                  
+                            </button>
+                            <div class="transition-all duration-300 faq-item-content overflow-hidden h-0">
+                                <div class="mt-[1px] p-6 bg-zinc-800">
+                                    <p class="text-lg md:text-2xl">The Netflix Kids experience is included in your membership to give parents control while kids enjoy family-friendly TV shows and movies in their own space.</p>
+                                    <p class="text-lg md:text-2xl"><br>Kids profiles come with PIN-protected parental controls that let you restrict the maturity rating of content kids can watch and block specific titles you don't want kids to see.</p>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <div class="mt-10 text-center px-5">
+                        <p class="text-lg md:text-xl mb-5">Ready to watch Netflix? Enter your email to create or restart your membership.</p>
+                        <div class="items-center md:flex mx-auto justify-center">
+                            <input class="px-4 pt-3 pb-3 md:p-4 bg-black/40 border rounded border-gray-500 w-full max-w-[372px]" style="max-width: 372px;" type="text" placeholder="Email address">
+                            <button class="bg-red-600  text-lg md:text-2xl mt-4 md:mt-0 py-2 px-4 md:py-3 md:px-6 rounded-sm ml-2 font-medium">Get started <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6 inline">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="m8.25 4.5 7.5 7.5-7.5 7.5" />
+                              </svg>
+                              </button>
+                        </div>
+                    </div>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <section class="max-w-[1172px] mx-auto">
+            <div class="pl-7 xl:pl-0 py-8 md:py-[72px] w-full text-left">
+                <div>
+                    <p>Questions? Phone <a href="#">0800 449 982</a></p>
+                </div>
+                <div class="flex">
+                        <div class="w-full">
+                            <div class="flex flex-row flex-wrap">
+                                <a class="mt-5 underline text-sm w-1/2 md:w-1/4" href="">FAQ</a>
+                                <a class="mt-5 underline text-sm w-1/2 md:w-1/4" href="">Help Center</a>
+                                <a class="mt-5 underline text-sm w-1/2 md:w-1/4" href="">Account</a>
+                                <a class="mt-5 underline text-sm w-1/2 md:w-1/4" href="">Media Centre</a>
+                            </div>
+                            <div class="flex flex-row flex-wrap">
+                                <a class="mt-5 underline text-sm w-1/2 md:w-1/4" href="">Investor relations</a>
+                                <a class="mt-5 underline text-sm w-1/2 md:w-1/4" href="">Jobs</a>
+                                <a class="mt-5 underline text-sm w-1/2 md:w-1/4" href="">Ways to watch</a>
+                                <a class="mt-5 underline text-sm w-1/2 md:w-1/4" href="">Terms of Use</a>
+                            </div>
+                            <div class="flex flex-row flex-wrap">
+                                <a class="mt-5 underline text-sm w-1/2 md:w-1/4" href="">Privacy</a>
+                                <a class="mt-5 underline text-sm w-1/2 md:w-1/4" href="">Cookie preferences</a>
+                                <a class="mt-5 underline text-sm w-1/2 md:w-1/4" href="">Corporate information</a>
+                                <a class="mt-5 underline text-sm w-1/2 md:w-1/4" href="">Contact us</a>
+                            </div>
+                            <div class="flex flex-row flex-wrap">
+                                <a class="mt-5 underline text-sm w-1/2 md:w-1/4" href="">Speed test</a>
+                                <a class="mt-5 underline text-sm w-1/2 md:w-1/4" href="">Legal notices</a>
+                                <a class="mt-5 underline text-sm w-1/2 md:w-1/4" href="">Only on Netflix</a>
+                            </div>
+                        </div>
+                </div>
+                <div class="mt-8">
+                    <button class="border rounded border-gray-500 py-[6px] pl-[34px] pr-9 flex">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="m10.5 21 5.25-11.25L21 21m-9-3h7.5M3 5.621a48.474 48.474 0 0 1 6-.371m0 0c1.12 0 2.233.038 3.334.114M9 5.25V3m3.334 2.364C11.176 10.658 7.69 15.08 3 17.502m9.334-12.138c.896.061 1.785.147 2.666.257m-4.589 8.495a18.023 18.023 0 0 1-3.827-5.802" />
+                        </svg>                          
+                        English
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="m19.5 8.25-7.5 7.5-7.5-7.5" />
+                        </svg>                       
+                    </button>
+                </div>
+                <div class="mt-6">
+                    <p class="text-sm">Netflix New Zealand</p>
+                </div>
+            </div>
+        </section>
+    </footer>
+    <a href="work.html"><button class="btn-projects my-8 mx-auto block">Back To projects</button></a>
+    <script src="Resources/JS/netflix-updated.js"></script>
+</body>
+</html>
