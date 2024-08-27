@@ -70,7 +70,7 @@ function changeDarkMode(){
 
 function changeLightMode(){
     document.querySelector('#todo-list-text').classList.remove('text-white')
-    document.querySelector('#page-div').classList.remove('bg-neutral-800')
+    document.querySelector('body').classList.remove('bg-neutral-800')
     document.querySelector('#empty-notes').classList.remove('text-white')
     document.querySelector('#search-icon').classList.remove('text-white')
     document.querySelector('#new-note-bg').classList.remove('bg-neutral-800', 'border', 'border-white')
