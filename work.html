@@ -4,40 +4,127 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Projects</title>
-    <link rel="stylesheet" href="Resources/CSS/work.css">
-</head>
-<body>
-    <h1>Project List</h1>
-    <ul>
-        <li>HTML</li>
-        <ol>
-            <li>Video Timestamp <a href="Timestamp.html">Project</a></li>
-            <li>Google Clone <a href="googleClone.html">Project</a></li>
-            <li>Digital Business Card <a href="BusinessCard.html">Project</a></li>
-            <li>Space Exploration <a href="space.html">Project</a></li>
-            <li>B-Day GIF <a href="bdayGIF.html">Project</a></li>
-            <li>Hometown <a href="hometown.html">Project</a> (Solo) </li>
-        </ol>
-        <li style="margin-top: 20px;">CSS</li>
-        <ol>
-            <li>Chris Course's <a href="v2.html">Project</a></li>
-        </ol>
-        <li style="margin-top: 20px;">Checkpoint - Static Webpages</li>
-        <ol>
-            <li>CSS | HTML Checkpoint <a href="checkpoint.html">Project</a> (Solo)</li>
-        </ol>
-        <li style="margin-top: 20px;">Javascript</li>
-        <ol>
-            <li>Creating users <a href="add-user.html">Project</a></li>
-            <li>Netflix clone Tutorial <a href="netflix.html">Project</a></li>
-            <li>Modern Netflix clone <a href="netflix-updated.html">Project</a> (Solo)</li>
-        </ol>
-        <li style="margin-top: 20px;">Checkpoint - Interactivity</li>
-        <ol>
-            <li>ToDo List <a href="todo.html">Project</a></li>
-        </ol>
-    </ul>
+    <link rel="shortcut icon" href="Resources/icons/k.png" type="image/x-icon">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
 
-    <a href="index.html" class="homepage"><button class="btn">Back To Homepage</button></a>
+        .btn-projects {
+                background: #dfe1e5;
+                border: none;
+                padding-top: 8px;
+                padding-bottom: 8px;
+                padding-left: 16px;
+                padding-right: 16px;
+                border-radius: 4px;
+                cursor: pointer;
+                color: black;
+        }
+    </style>
+</head>
+<body class="bg-neutral-800">
+    <div class="max-w-[65%] mx-auto px-9">
+        <header class="pt-16 pb-12">
+            <h1 class="text-4xl font-bold text-white mx-auto w-fit" style="text-shadow: 0 0 3px white;">Personal Projects</h1>
+        </header>
+        <section class="text-white">
+            <div>
+                <h2 class="text-2xl">HTML</h2>
+                <div class="py-9 flex flex-wrap">
+                    <div class="w-[200px] h-[190px] p-4 mr-16 border-2 border-blue-400/25 rounded-lg hover:border-blue-400 hover:shadow-[0_0_10px] hover:shadow-blue-600 transition duration-150">
+                        <a href="googleClone.html" class="hover:animate-pulse">
+                            <img src="Resources/Images/googleClone.png" alt="" class="">
+                            <p class="mt-4">Google Clone</p>
+                        </a>
+                    </div>
+                    <div class="w-[200px] h-[190px] p-4 mr-16 border-2 border-blue-400/25 rounded-lg hover:border-blue-400 hover:shadow-[0_0_10px] hover:shadow-blue-600 transition duration-150">
+                        <a href="BusinessCard.html" class="hover:animate-pulse">
+                            <img src="Resources/Images/digitalBusinessCard.png" alt="" class="">
+                            <p class="mt-4">Digital business card</p>
+                        </a>
+                    </div>
+                    <div class="w-[200px] h-[190px] p-4 mr-16 border-2 border-blue-400/25 rounded-lg hover:border-blue-400 hover:shadow-[0_0_10px] hover:shadow-blue-600 transition duration-150">
+                        <a href="space.html" class="hover:animate-pulse">
+                            <img src="Resources/Images/spaceExploration.png" alt="" class="">
+                            <p class="mt-4">Space exploration</p>
+                        </a>
+                    </div>
+                    <div class="w-[200px] h-[190px] p-4 mr-16 border-2 border-blue-400/25 rounded-lg hover:border-blue-400 hover:shadow-[0_0_10px] hover:shadow-blue-600 transition duration-150">
+                        <a href="bdayGIF.html" class="hover:animate-pulse">
+                            <img src="Resources/Images/bdayGif.png" alt="" class="">
+                            <p class="mt-4">B-day gif</p>
+                        </a>
+                    </div>
+                    <div class="w-[200px] h-[190px] p-4 mr-16 mt-9 border-2 border-blue-400/25 rounded-lg hover:border-blue-400 hover:shadow-[0_0_10px] hover:shadow-blue-600 transition duration-150">
+                        <a href="hometown.html" class="hover:animate-pulse">
+                            <img src="Resources/Images/hometown.png" alt="" class="">
+                            <p class="mt-4 text-blue-400">Hometown project (solo)</p>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="mt-20">
+                <h2 class="text-2xl">CSS</h2>
+                <div class="py-9 flex flex-wrap">
+                    <div class="w-[200px] h-[190px] p-4 mr-16 border-2 border-blue-400/25 rounded-lg hover:border-blue-400 hover:shadow-[0_0_10px] hover:shadow-blue-600 transition duration-150">
+                        <a href="v2.html" class="hover:animate-pulse">
+                            <img src="Resources/Images/chrisCourses.png" alt="" class="">
+                            <p class="mt-4">Chris Course's</p>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="mt-20">
+                <h2 class="text-2xl font-bold">Checkpoint - Static Webpages</h2>
+                <div class="py-9 flex flex-wrap">
+                    <div class="w-[200px] h-[190px] p-4 mr-16 border-2 border-blue-400/25 rounded-lg hover:border-blue-400 hover:shadow-[0_0_10px] hover:shadow-blue-600 transition duration-150">
+                        <a href="checkpoint.html" class="hover:animate-pulse">
+                            <img src="Resources/Images/blogDesign.png" alt="" class="">
+                            <p class="mt-4 text-blue-400">Blog design</p>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="mt-20">
+                <h2 class="text-2xl">Javascript</h2>
+                <div class="py-9 flex flex-wrap">
+                    <div class="w-[200px] h-[190px] p-4 mr-16 border-2 border-blue-400/25 rounded-lg hover:border-blue-400 hover:shadow-[0_0_10px] hover:shadow-blue-600 transition duration-150">
+                        <a href="add-user.html" class="hover:animate-pulse">
+                            <img src="Resources/Images/addUsers.png" alt="" class="">
+                            <p class="mt-4">Create users</p>
+                        </a>
+                    </div>
+                    <div class="w-[200px] h-[190px] p-4 mr-16 border-2 border-blue-400/25 rounded-lg hover:border-blue-400 hover:shadow-[0_0_10px] hover:shadow-blue-600 transition duration-150">
+                        <a href="netflix.html" class="hover:animate-pulse">
+                            <img src="Resources/Images/netflixCloneOld.png" alt="" class="">
+                            <p class="mt-4">Netflix clone</p>
+                            <p class="italic text-sm">Old version</p>
+                        </a>
+                    </div>
+                    <div class="w-[200px] h-[190px] p-4 mr-16 border-2 border-blue-400/25 rounded-lg hover:border-blue-400 hover:shadow-[0_0_10px] hover:shadow-blue-600 transition duration-150">
+                        <a href="netflix-updated.html" class="hover:animate-pulse">
+                            <img src="Resources/Images/netflixCloneUpdated.png" alt="" class="">
+                            <p class="mt-4 text-blue-400">Netflix clone</p>
+                            <p class="italic text-blue-400 text-sm">Updated version - solo</p>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="mt-20">
+                <h2 class="text-2xl font-bold">Checkpoint - Interactivity</h2>
+                <div class="py-9 flex flex-wrap">
+                    <div class="w-[200px] h-[190px] p-4 mr-16 border-2 border-blue-400/25 rounded-lg hover:border-blue-400 hover:shadow-[0_0_10px] hover:shadow-blue-600 transition duration-150">
+                        <a href="todo.html" class="hover:animate-pulse">
+                            <img src="Resources/Images/todoList.png" alt="" class="">
+                            <p class="mt-4 text-blue-400">Todo list</p>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+    <a href="index.html"><button class="btn-projects mb-8 mt-32 sm:mt-0 mx-auto block">Back To homepage</button></a>
 </body>
 </html>
