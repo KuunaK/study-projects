@@ -1,0 +1,17 @@
+{
+  "name": "checkpoint---external-packages",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+     "build": "esbuild npmCheckpoint.js --bundle --outfile=npmCheckpointBundle.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "dayjs": "^1.11.13",
+    "esbuild": "^0.23.1"
+  }
+}
